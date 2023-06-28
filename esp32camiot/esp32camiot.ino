@@ -1,8 +1,3 @@
-//MEO-E9F720
-//53349fb336
-//192.168.1.171
-//1883
-
 #include "esp_camera.h"
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -25,13 +20,13 @@
 #define LED_BUILTIN 4
 
 //WIFI config
-const char* ssid = "NOTEVITORIA";
-const char* password = "123vba456";
+const char* ssid = "----";
+const char* password = "----";
 
 //MQTT config
 bool useMQTT = true;
-const char* mqttServer = "192.168.1.171";
-const char* HostName = "mqtt.vitoria.pc";
+const char* mqttServer = "----";
+const char* HostName = "-----";
 const char* mqttUser = "";
 const char* mqttPassword = "";
 const char* topic_PHOTO = "MOTION/DETECTION";
